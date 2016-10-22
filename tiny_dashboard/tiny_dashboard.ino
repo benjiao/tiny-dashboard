@@ -30,7 +30,7 @@ void loop(){
   while(Serial.available()==0);
   
   // Discard everything until this marker
-  Serial.readStringUntil('0c039ba7de191f928e8d2b1b445ac609');
+  Serial.readStringUntil('Clujlusjarr7');
 
   line1 = Serial.readStringUntil('\n');
   line2 = Serial.readStringUntil('\n');
